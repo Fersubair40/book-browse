@@ -14,10 +14,10 @@ class Footer extends Component {
                                 <div className="col-6 col-md">
                                     <h5>Categories</h5>
                                     <ul className="list-unstyled text-smaill">
+                                        <li className="text-muted">Non-Fiction</li>
                                         <li className="text-muted">Fiction</li>
-                                        <li className="text-muted">Fiction</li>
-                                        <li className="text-muted">Fiction</li>
-                                        <li className="text-muted">Fiction</li>
+                                        <li className="text-muted">Series</li>
+                                        <li className="text-muted">Sport</li>
                                     </ul>
                                 </div>
                                     <div className="col-6 col-md">
