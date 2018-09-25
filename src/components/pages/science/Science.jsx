@@ -43,7 +43,7 @@ class Science extends Component {
                             <div className="card-header">
                             </div>
                             <div className="card-body">
-                            <Link to={`/bookInfo/${book.primary_isbn13}`}><img className="card-img-top" src={book.book_image}></img></Link>
+                                <Link to={`/book/${book.primary_isbn13}`}><img className="card-img-top" src={book.book_image}></img></Link>
                             </div>
                             <div className="card-footer">
                                 <p className="card-text my-0"><small className="text-muted">{book.title}</small>
@@ -69,7 +69,7 @@ class Science extends Component {
                             <div className="card-header">
                             </div>
                             <div className="card-body">
-                                <Link to={`/bookInfo/${book.author}`}><img className="card-img-top" src={book.book_image}></img></Link>
+                                <Link to={`/book/${book.primary_isbn13}`}><img className="card-img-top" src={book.book_image}></img></Link>
                             </div>
                             <div className="card-footer">
                                 <p className="card-text my-0"><small class="text-muted">{book.title}</small>
