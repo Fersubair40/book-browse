@@ -21,7 +21,7 @@ ReactDOM.render(
       <Route path="/science" component={Science}/>
       <Route path = "/business"component={Business}/>
       <Route path = "/picture"component={Sport}/>
-      <Route path = "/bookInfo/:primary_isbn13"component={Book}/>
+      <Route path = "/book/:primary_isbn13"component={Book}/>
       <Route exact path = "/book-yet-to-be-reviewed"component={NotFound}/>
     </div>
     </BrowserRouter>
