@@ -58,7 +58,7 @@ class Book extends Component{
                                 <p className="">By {this.state.bookAuthor}</p>
                                 <span>{this.state.bookSummary}</span>
                                 {/* <iframe src={this.state.bookReview}></iframe> */}
-                                <a href={this.state.bookReview} className='btn btn-primary'>READ MORE</a>
+                                <a href={this.state.bookReview} className='btn btn-primary mx-3'>READ MORE!</a>
                             </div>           
                         </div>
                    </div>
