@@ -24,9 +24,9 @@ class Footer extends Component {
                                         <h5>Resources</h5>
                                         <ul className="list-unstyled text-smaill">
                                             <li className="text-muted">New York Times </li>
-                                            <li className="text-muted">Fiction</li>
-                                            <li className="text-muted">Fiction</li>
-                                            <li className="text-muted">Fiction</li>
+                                            <li className="text-muted">Amazon</li>
+                                            <li className="text-muted">Local Book Seller</li>
+                                            <li className="text-muted">Barnes and Noble</li>
                                         </ul>
                                     </div>
                                 <div className="col-6 col-md">
