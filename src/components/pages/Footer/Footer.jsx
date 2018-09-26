@@ -9,7 +9,7 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-12 col-md">
                             <img className="mb-2" src='' alt="" width="24" height="24"></img>
-                                <small className="d-block mb-3 text-muted">&copy;2018-2019</small>
+                                <small className="d-block mx-5 mb-3 text-muted">&copy;2018-2019</small>
                             </div>
                                 <div className="col-6 col-md">
                                     <h5>Categories</h5>
