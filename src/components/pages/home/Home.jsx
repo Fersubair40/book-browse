@@ -199,7 +199,7 @@ class Home extends Component {
 				{/* section */}
 				{loading ? <LoadingSpinner/> :
 				<div className="container">
-					<h5>All</h5>
+					<h5>Top picks</h5>
 					<div className="row justify-content-center">
 						{this.getBooks()}
 					</div>
