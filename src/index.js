@@ -24,9 +24,10 @@ ReactDOM.render(
       <Route path = "/book/:primary_isbn13"component={Book}/>
       <Route exact path = "/book-yet-to-be-reviewed"component={NotFound}/>
     </div>
-    </BrowserRouter>
-    , document.getElementById('root'));
+    </BrowserRouter>, document.getElementById('root'));
+
     if (module.hot) {
       module.hot.accept();
     }
+    
 registerServiceWorker();

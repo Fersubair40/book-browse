@@ -22,7 +22,6 @@ class Sport extends Component {
                 listId: response.data.results.lists[8].list_id,
                 loading:false
             })
-            console.log(response);
         });
     };
     getBooks = () => {

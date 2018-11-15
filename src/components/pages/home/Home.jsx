@@ -25,7 +25,6 @@ class Home extends Component {
 			const fictionBookLists = bookList.filter(e => e.list_name.includes('Fiction'))
 			const nonFictionBookLists = bookList.filter(e => e.list_name.includes('Nonfiction'))
 
-			console.log('hardcover', fictionBookLists)
 			this.setState({
 				//    bookImage: response.data.results.lists[0].books[0].book_image,
 				//    bookTitle: response.data.results.lists[0].books[0].title
@@ -36,7 +35,6 @@ class Home extends Component {
 				nonFiction: this.getRandomBooks(nonFictionBookLists).books,
 				loading:false
 			})
-			console.log(response);
 		});
 	};
 	getRandomBooks = (booklist) => {
