@@ -14,7 +14,7 @@ class Business extends Component {
     };
 
     componentWillMount() {
-        const overviewPromise = axios.get("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=5c73f11456c44cb8a5f8995905412eb2");
+        const overviewPromise = axios.get("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=kD4CobbkQrz69Gsp5APE9OmxTfZP0J9c");
 
         overviewPromise.then(response => {
             this.setState({
