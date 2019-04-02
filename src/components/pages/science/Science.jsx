@@ -21,7 +21,7 @@ class Science extends Component {
 
 
             this.setState({
-                bookInfo: response.data.results.lists[14].books,
+                bookInfo: response.data.results.lists[13].books,
                 scienceBooks: this.getRandomBooks(scienceBooks).books,
                 loading:false
         })
