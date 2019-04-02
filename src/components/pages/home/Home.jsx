@@ -29,7 +29,7 @@ class Home extends Component {
 				//    bookImage: response.data.results.lists[0].books[0].book_image,
 				//    bookTitle: response.data.results.lists[0].books[0].title
 				bookInfo: this.getRandomBooks(bookList).books,
-				sportBooks: this.getRandomBooks(sportBooks).books,
+				sportBooks: this.getRandomBooks(bookList).books,
 				hardcoverBooks: this.getRandomBooks(hardcoverBookLists).books,
 				fiction: this.getRandomBooks(fictionBookLists).books,
 				nonFiction: this.getRandomBooks(nonFictionBookLists).books,
