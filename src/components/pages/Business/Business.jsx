@@ -20,7 +20,7 @@ class Business extends Component {
             this.setState({
                 //    bookImage: response.data.results.lists[0].books[0].book_image,
                 //    bookTitle: response.data.results.lists[0].books[0].title
-                bookInfo: response.data.results.lists[13].books,
+                bookInfo: response.data.results.lists[13].bookList,
                 loading: false
             })                                    
             console.log(response);
